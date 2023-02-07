@@ -26,13 +26,13 @@ public class Jugador extends Entidad{
 
         switch (accion){
             case 0:
-                System.out.println(accion=nivel+getAtaque());
+                accion=nivel+getAtaque();
                 break;
             case 1:
-                System.out.println(accion=experiencia+getDefensa());
+                accion=experiencia+getDefensa();
                 break;
             case 2:
-                System.out.println(accion=nivel+experiencia);
+                accion=nivel+experiencia;
                 break;
             default:
                 System.out.println("No se contempla esa acción, por favor introduce un numero del 0 al 2");

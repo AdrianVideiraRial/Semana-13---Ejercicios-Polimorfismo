@@ -61,6 +61,7 @@ public class Entidad {
 
     public int turno(int accion){
         return accion;
+
     }
 
     public void info(){

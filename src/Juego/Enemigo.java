@@ -21,13 +21,13 @@ public class Enemigo extends Entidad {
     public int turno(int accion){
         switch (accion){
             case 0:
-                System.out.println(accion=dificultad+getAtaque());
+                accion=dificultad+getAtaque();
                 break;
             case 1:
-                System.out.println(accion=dificultad+getDefensa());
+                accion=dificultad+getDefensa();
                 break;
             case 2:
-                System.out.println(accion=dificultad+getAtaque()+getDefensa());
+                accion=dificultad+getAtaque()+getDefensa();
                 break;
             default:
                 System.out.println("No se contempla esa acción, por favor introduce un numero del 0 al 2");
